@@ -12,7 +12,11 @@ O treinamento é realizado com o método fit, utilizando os dados de treino e es
 
 Para retreinar o modelo, basta abrir o notebook "Treinamento.ipynb" e rodar todas as células. Será salvo o modelo final com o nome 'epic_num_reader.model'. Para prever novos itens, basta carregar esse modelo e realizar predições com os seguintes comandos:
 
-'''
+```
 new_model = tf.keras.models.load_model('epic_num_reader.model')
 predictions = new_model.predict(x_test)
-'''
+```
+
+## Demo
+[p7.webm](https://github.com/elisaflemer/m8p7/assets/99259251/00917c07-819b-4376-9476-89961e94dcc4)
+
